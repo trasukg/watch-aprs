@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "node-getopt": "^0.2.3",
-    "utils-for-aprs": "^2.2.5"
+    "utils-for-aprs": "^2.2.7"
   }
 }
