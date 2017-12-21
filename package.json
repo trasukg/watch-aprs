@@ -1,0 +1,32 @@
+{
+  "name": "watch-aprs",
+  "version": "1.0.0",
+  "description": "Monitor APRS packets arriving on a KISS-over-TCP link."
+  "scripts": {},
+  "bin": {
+    "watch-aprs": "./watch-aprs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trasukg/watch-aprs.git"
+  },
+  "keywords": [
+    "aprs",
+    "tnc",
+    "kiss",
+    "TCP/IP"
+  ],
+  "author": "Greg Trasuk VA3TSK",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/trasukg/watch-aprs/issues"
+  },
+  "homepage": "https://github.com/trasukg/watch-aprs#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "dependencies": {
+    "node-getopt": "^0.2.3",
+    "utils-for-aprs": "^2.2.5"
+  }
+}
