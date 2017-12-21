@@ -1,7 +1,7 @@
 {
   "name": "watch-aprs",
   "version": "1.0.0",
-  "description": "Monitor APRS packets arriving on a KISS-over-TCP link."
+  "description": "Monitor APRS packets arriving on a KISS-over-TCP link.",
   "scripts": {},
   "bin": {
     "watch-aprs": "./watch-aprs.js"
