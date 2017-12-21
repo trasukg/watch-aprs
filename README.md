@@ -54,6 +54,6 @@ The phrase APRS is a registered trademark of Bob Bruninga WB4APR.
 
 # Release Notes
 
-1.0.0 - December 21, 2017 - First release.  Previously was a part of the 
+1.0.1 - December 21, 2017 - First release.  Previously was a part of the 
 share-tnc package.  Releasing separately allows installation of watch-aprs
 without the serialport package.
