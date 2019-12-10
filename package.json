@@ -1,6 +1,6 @@
 {
   "name": "watch-aprs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Monitor APRS packets arriving on a KISS-over-TCP link.",
   "scripts": {},
   "bin": {
@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "node-getopt": "^0.2.3",
-    "utils-for-aprs": "^2.2.7"
+    "utils-for-aprs": "^2.2.10"
   }
 }

@@ -2,8 +2,8 @@
 
 Monitor and decode APRS packets arriving on a KISS-over-TCP device.
 
-This is a command-line utility that decodes APRS packets and prints them 
-out to the console in more-or-less human-readable form.  It's useful with 
+This is a command-line utility that decodes APRS packets and prints them
+out to the console in more-or-less human-readable form.  It's useful with
 ports that have been made available by the share-tnc utility, or with ports
 that directly implement KISS-over-TCP, like the Direwolf sound card interface.
 
@@ -54,6 +54,7 @@ The phrase APRS is a registered trademark of Bob Bruninga WB4APR.
 
 # Release Notes
 
-1.0.1 - December 21, 2017 - First release.  Previously was a part of the 
+1.0.1 - December 21, 2017 - First release.  Previously was a part of the
 share-tnc package.  Releasing separately allows installation of watch-aprs
-without the serialport package.
+without the serialport package.  
+1.0.2 - December 8, 2019 - Update to latest utils-for-aprs.  
