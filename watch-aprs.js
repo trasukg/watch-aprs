@@ -60,7 +60,7 @@ var aprsProcessor=new APRSProcessor();
 aprsProcessor.on('aprsData', function(frame) {
   frame.receivedAt=moment().format();
 
-  console.log( "[" + frame.receivedAt + "]" + ax25utils.addressToString(frame.source) +
+  console.log( "[" + frame.receivedAt + "] " + ax25utils.addressToString(frame.source) +
     '->' + ax25utils.addressToString(frame.destination) +
     ' (' + ax25utils.repeaterPathToString(frame.repeaterPath) + ')' +
     ((frame.forwardingSource!=undefined)?(
