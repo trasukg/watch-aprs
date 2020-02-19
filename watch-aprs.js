@@ -29,6 +29,7 @@ var util=require('util');
 var ax25utils=require('utils-for-aprs').ax25utils;
 var SocketKISSFrameEndpoint=require('utils-for-aprs').SocketKISSFrameEndpoint;
 var APRSProcessor=require('utils-for-aprs').APRSProcessor;
+var moment = require('moment');
 
 console.log("process.argv=" + process.argv);
 
@@ -57,9 +58,9 @@ var aprsProcessor=new APRSProcessor();
 
 // When we get data on the aprsProcessor, show it on the console.
 aprsProcessor.on('aprsData', function(frame) {
-  frame.receivedAt=new Date();
+  frame.receivedAt=moment().format();
 
-  console.log( "[" + frame.receivedAt + "]" + ax25utils.addressToString(frame.source) +
+  console.log( "[" + frame.receivedAt + "] " + ax25utils.addressToString(frame.source) +
     '->' + ax25utils.addressToString(frame.destination) +
     ' (' + ax25utils.repeaterPathToString(frame.repeaterPath) + ')' +
     ((frame.forwardingSource!=undefined)?(

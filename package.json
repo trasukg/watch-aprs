@@ -26,6 +26,7 @@
     "jasmine": "^2.5.3"
   },
   "dependencies": {
+    "moment": "2.24.0",
     "node-getopt": "^0.2.3",
     "utils-for-aprs": "^2.2.10"
   }
